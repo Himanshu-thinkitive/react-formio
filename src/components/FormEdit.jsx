@@ -217,7 +217,7 @@ const FormEdit = (props) => {
 				builder={builder}
 				onChange={formChange}
 				onSaveComponent={onSaveComponent}
-        		onDeleteComponent={onDeleteComponent}
+				onDeleteComponent={onDeleteComponent}
 			/>
 		</div>
 	);
@@ -230,7 +230,7 @@ FormEdit.propTypes = {
 	saveForm: PropTypes.func,
 	saveText: PropTypes.string,
 	onSaveComponent: PropTypes.func,
-  	onDeleteComponent: PropTypes.func,
+	onDeleteComponent: PropTypes.func,
 };
 
 export default FormEdit;
